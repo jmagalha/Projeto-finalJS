@@ -1,0 +1,26 @@
+#p-login {
+    max-width: 320px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+#p-login fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#p-login input[type='radio'], input[type='checkbox'] {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+#p-login input:not(input[type='radio']):not(input[type='checkbox']), 
+#p-login button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,71 @@
+@import url(./styles/pages/login.page.css);
+@import url(./styles/pages/404.page.css);
+@import url(./styles/pages/add-contact.page.css);
+@import url(./styles/pages/contact-details.page.css);
+@import url(./styles/pages/contacts.page.css);
+@import url(./styles/pages/edit-contact.page.css);
+@import url(./styles/pages/signup.page.css);
+@import url(./styles/components/header.component.css);
+@import url(./styles/components/card-contact-component.css);
+
+body {
+    margin: 0;
+    padding: 0 16px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #202020;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form, fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+form {
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #914fce;
+}
+
+textarea, input:not(input[type='radio']):not(input[type='checkbox']), button {
+    min-height: 40px;
+    padding: 5px 10px;
+
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+input[type='radio'], input[type='checkbox'] {
+    display: inline-block;
+    width: auto;
+}
+
+label {
+    font-weight: 500;
+    color: blueviolet;
+}
+
+#cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

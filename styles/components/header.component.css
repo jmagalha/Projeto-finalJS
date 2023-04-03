@@ -1,0 +1,11 @@
+#c-header {
+    display: flex;
+    background-color: blueviolet;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#c-header a {
+    color: white;
+}

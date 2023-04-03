@@ -1,0 +1,18 @@
+.c-card-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    gap: 40px;
+}
+
+.c-card-contact a {
+    color: white;
+}
+
+.c-card-contact p {
+    flex: 1;
+}

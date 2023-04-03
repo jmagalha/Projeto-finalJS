@@ -1,0 +1,21 @@
+#p-signup {
+  max-width: 320px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+#p-signup fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  flex-direction: row;
+  justify-content: start;
+}
+
+#p-signup input, 
+#p-signup button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
