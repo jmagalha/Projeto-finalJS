@@ -1,4 +1,4 @@
-import { NotFound } from './scripts/pages/404.page.js'
+import { NotFound } from './scripts/pages/not-found.page.js'
 import { AddContact } from './scripts/pages/add-contact.page.js'
 import { ContactDetails } from './scripts/pages/contact-details.js'
 import { EditContact } from './scripts/pages/edit-contact.js'

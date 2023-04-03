@@ -39,10 +39,8 @@ export const Login = () => {
 
         <button type="submit">Entrar</button>
 
-        <br>
-
         <p>
-            Não tem conta? <a href="/#signup">crie aqui</a>
+            Não tem conta? <a href="/#signup">Crie aqui</a>
         </p>
     `
 

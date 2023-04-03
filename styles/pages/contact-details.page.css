@@ -1,0 +1,16 @@
+#p-contact-details {
+    margin: 0 auto;
+    width: 450px;
+}
+
+#p-contact-details h1 {
+    font-size: 25px;
+}
+
+#p-contact-details h2 {
+    font-size: 20px;
+   }
+
+#p-contact-details p {
+    font-size: 14px;
+}

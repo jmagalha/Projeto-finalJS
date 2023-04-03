@@ -35,20 +35,22 @@ const eventos = () => {
 
 export const Signup = () => {
     signup.innerHTML = `
-        <a href="/#login">Já possui conta? Entre aqui!</a>
-        <br>
-        
-        <label for="nome">Nome completo</label>
-        <input type="nome" name="nome" required>
-
-        <label for="email">E-mail</label>
-        <input type="email" name="email" required>
-
-        <label for="senha">Senha</label>
-        <input type="password" name="senha" required>
-
-        <button type="submit">Cadastrar</button>
-        <span></span>
+    
+    <label for="nome">Nome completo</label>
+    <input type="nome" name="nome" required>
+    
+    <label for="email">E-mail</label>
+    <input type="email" name="email" required>
+    
+    <label for="senha">Senha</label>
+    <input type="password" name="senha" required>
+    
+    <button type="submit">Cadastrar</button>
+    
+    <p>
+        Já possui conta? <a href="/#login">Entre aqui!</a>
+    </p>
+    <a href="/#login">Já possui conta? Entre aqui!</a>
     `
 
     eventos()

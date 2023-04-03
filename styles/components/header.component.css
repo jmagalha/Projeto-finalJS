@@ -1,11 +1,12 @@
 #c-header {
     display: flex;
-    background-color: blueviolet;
-    color: white;
+    background-image: radial-gradient(circle,#18064a, #3b386e, #150d51);
+    color: rgb(208, 208, 208);
     justify-content: space-between;
-    padding: 10px;
+    padding: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #c-header a {
-    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
